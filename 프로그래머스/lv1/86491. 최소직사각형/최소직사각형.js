@@ -1,9 +1,9 @@
 function solution(sizes) {
     var answer = 0;
-    var longArr= new Array;
-    var shortArr= new Array;
-    var lMax;
-    var sMax;
+    var longArr= new Array;     // 긴 면의 길이를 담는 배열
+    var shortArr= new Array;    // 짧은 면의 길이를 담는 배열
+    var lMax;   // 긴 면의 길이 중 가장 큰 값
+    var sMax;   // 작은 면의 길이 중 가장 큰 값
     let wTemp;
     let hTemp;
     for(i=0; i<sizes.length; i++){
