@@ -1,5 +1,4 @@
 function solution(s) {
-    var answer = '';
     let strArr = [...s]
     strArr.sort(function(a,b){
         if(a>b){
@@ -9,6 +8,5 @@ function solution(s) {
         }
         return 0
     })
-    console.log(strArr)
     return strArr.join('');
 }
