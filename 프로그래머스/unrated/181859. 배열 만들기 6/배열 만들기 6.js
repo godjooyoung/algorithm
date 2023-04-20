@@ -1,6 +1,6 @@
 function solution(arr) {
     let stk = []
-    arr.forEach((x,i)=>{
+    arr.forEach((x)=>{
         if( x !== stk[stk.length - 1]){
             stk.push(x)
         }else{
